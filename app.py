@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Loan Analyzer Pro", layout="wide")
+st.set_page_config(page_title="LOAN ANALYZER PRO", layout="wide")
 
-st.title("💰 Loan Analyzer Pro (FINAL STABLE VERSION)")
+st.title("💰 Loan Analyzer Pro (App Version)")
 
 # =========================
 # SESSION STATE
