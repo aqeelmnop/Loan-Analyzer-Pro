@@ -5,7 +5,7 @@ import numpy as np
 
 st.set_page_config(page_title="LOAN ANALYZER PRO", layout="wide")
 
-st.title("💰 Loan Analyzer Pro (App Version)")
+st.title("💰 LOAN ANALYZER PRO (App Version)")
 
 # =========================
 # SESSION STATE
