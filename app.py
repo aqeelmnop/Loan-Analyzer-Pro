@@ -96,8 +96,8 @@ safe_budget = (income * (target_dsr/100)) - commit
 st.sidebar.info(f"Bajet Bulanan Maksimum: RM {max(safe_budget, 0.0):,.2f}")
 
 with st.sidebar.expander("🔍 Lihat Kelayakan Harga"):
-    est_rate = st.number_input("Estimasi Rate (%)", 3.0, 5.0, 4.0)
-    est_years = st.number_input("Estimasi Tahun", 1, 35, 30)
+    est_rate = st.number_input("Anggaran Rate (%)", 3.0, 5.0, 4.0)
+    est_years = st.number_input("Anggaran Tahun", 1, 35, 30)
     max_h = calculate_borrowing_power(safe_budget, est_rate, est_years, "Housing")
     max_c = calculate_borrowing_power(safe_budget, 3.0, 9, "Car")
     st.write(f"🏠 **Harga Rumah:** RM {max_h:,.0f}")
