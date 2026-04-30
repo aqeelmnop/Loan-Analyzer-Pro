@@ -89,7 +89,7 @@ def calculate_borrowing_power(monthly_budget, rate, years, type="Housing"):
 # =========================
 st.sidebar.header("🛡️ Affordability Master")
 income = st.sidebar.number_input("Gaji Bersih (RM)", min_value=0.0, value=5000.0)
-commit = st.sidebar.number_input("Komitmen Luar (RM)", min_value=0.0, value=500.0)
+commit = st.sidebar.number_input("Komitmen Luar (RM)", min_value=0.0, value=0.0)
 target_dsr = st.sidebar.slider("Had DSR (%)", 30, 70, 60)
 
 safe_budget = (income * (target_dsr/100)) - commit
